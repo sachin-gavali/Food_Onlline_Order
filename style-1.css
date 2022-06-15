@@ -1,0 +1,225 @@
+    /* Css Reset*/
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    /* Css VAriable */
+    
+     :root {
+        --navbar-height: 59px;
+    }
+    /*Navigation Bar */
+    
+    #navbar {
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: 0%;
+    }
+    /*  Navigation Bar : logo and img*/
+    
+    #logo {
+        margin: 10px 34px;
+        padding: 10px 5px;
+    }
+    
+    #logo img {
+        margin: 3px 4px;
+        height: 40px;
+    }
+    /* Navigation Bar : list item*/
+    
+    #navbar ul {
+        display: flex;
+        margin: 10px;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    #navbar::before {
+        content: "";
+        background: black;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        height: 100%;
+        width: 100%;
+        opacity: 0.4;
+        z-index: -1;
+    }
+    
+    #navbar ul li {
+        list-style: none;
+        font-size: 1.3rem;
+    }
+    
+    #navbar ul li a {
+        color: white;
+        display: block;
+        padding: 3px 22px;
+        border-radius: 30px;
+        text-decoration: none;
+    }
+    
+    #navbar ul li a:hover {
+        color: black;
+        background: red;
+    }
+    /* Home section */
+    
+    #home {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 578px;
+        justify-content: center;
+    }
+    
+    #home::before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        background: url('../bg1.jpg');
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: cover;
+        height: 642px;
+        width: 100%;
+        opacity: 0.89;
+        z-index: -1;
+    }
+    
+    #home h1 {
+        color: white;
+        text-align: center;
+    }
+    
+    #home p {
+        text-align: center;
+        color: white;
+        font-size: 0.8rem;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .btn {
+        padding: 6px 20px;
+        border: none;
+        background-color: brown;
+        color: white;
+        margin: 17px;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        color: blue;
+    }
+    /* serives section */
+    
+    #Services {
+        margin: 34px;
+        display: flex;
+    }
+    
+    #Services .box {
+        border: 2px solid rgb(5, 81, 221);
+        margin: 6px;
+        padding: 10px;
+        background: gainsboro;
+        border-radius: 23px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    #Services .box img {
+        height: 160px;
+        margin: auto;
+        display: block;
+    }
+    /* Client Section */
+    
+    #client-sections {
+        height: 344px;
+        position: relative;
+    }
+    
+    #client-sections h1 {
+        font-size: 2.4rem;
+    }
+    
+    #client-sections::before {
+        content: "";
+        position: absolute;
+        background: url('../bg.jpg');
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.7;
+    }
+    
+    #contact-box input,
+    #contact-box textarea {
+        border: 2px solid rgb(22, 22, 21);
+        width: 100%;
+        padding: 0.5rem;
+    }
+    
+    #contact-box {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 34px;
+    }
+    
+    footer {
+        background: black;
+        color: white;
+        padding: 9px 20px;
+    }
+    
+    #clients {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #clients img {
+        height: 124px;
+        padding: 45px;
+        margin: 5%;
+    }
+    /*Forms*/
+    
+    #contact {
+        position: relative;
+        height: 744px;
+    }
+    
+    #contact::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.6;
+        background: url('../contact.jpg') no-repeat center center/cover;
+    }
+    /* Utility Classes */
+    
+    h-primary {
+        font-size: 3.6rem;
+        padding: 10px;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    h-secoundary {
+        font-size: 2.6rem;
+        padding: 10px;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .center {
+        text-align: center;
+    }

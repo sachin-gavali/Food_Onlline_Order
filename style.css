@@ -1,0 +1,291 @@
+    @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+    }
+    
+    .nav-list {
+        width: 50%;
+        align-items: center;
+    }
+    
+    .nav-list li {
+        list-style: none;
+        padding: 34px;
+    }
+    
+    .nav-list li a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-family: cursive;
+    }
+    
+    .nav-list li a:hover {
+        color: rgb(241, 16, 16);
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .logo img {
+        border: 2px solid white;
+        border-radius: 147px;
+        width: 15%;
+    }
+    
+    .right-nav {
+        width: 50%;
+        text-align: right;
+        padding: 0 23px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #Search {
+        padding: 5px;
+        margin: 8px;
+        border: 2px solid rgb(10, 10, 10);
+        color: rgb(255, 0, 0);
+        border-radius: 9px;
+        font-size: 17px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    .background {
+        background: rgba(88, 82, 82, 0.7) url('../img/img_2.jpg');
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    
+    .box-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        max-width: 50%;
+        margin: auto;
+        height: 50%;
+        width: 80%;
+    }
+    
+    .fristSection {
+        height: 100vh;
+    }
+    
+    .fristHalf {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: left;
+    }
+    
+    .secoundHalf {
+        width: 30%;
+    }
+    
+    .secoundHalf img {
+        width: 80%;
+        padding: 4px 0;
+        border: 2px solid;
+        border-radius: 147px;
+        display: block;
+        margin: auto;
+    }
+    
+    .text-big {
+        font-size: 41px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .text-small {
+        font-size: 28px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .btn {
+        padding: 8px 20px;
+        margin: 7px 3px;
+        border: 2px solid white;
+        border-radius: 10px;
+        background: none;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        padding: 8px 20px;
+        margin: 7px 3px;
+        border: 2px solid rgb(252, 245, 245);
+        border-radius: 10px;
+        background: red;
+        color: rgb(10, 10, 10);
+        cursor: pointer;
+    }
+    
+    .btn-sm {
+        padding: 6px 10px;
+        vertical-align: middle;
+        border: 2px solid white;
+        border-radius: 10px;
+        background: none;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .btn-sm:hover {
+        padding: 6px 10px;
+        vertical-align: middle;
+        border: 2px solid rgb(252, 245, 245);
+        border-radius: 10px;
+        background: rgb(0, 255, 234);
+        color: rgb(10, 10, 10);
+        cursor: pointer;
+    }
+    
+    .secRight {
+        height: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 85%;
+        margin: auto;
+    }
+    
+    .sectionTag {
+        font-size: 34px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 10px;
+    }
+    
+    .sectionSubTag {
+        font-size: 14px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .para {
+        padding: 2px;
+    }
+    
+    .thumbnail {
+        width: 20%;
+    }
+    
+    .img-1 {
+        width: 300px;
+    }
+    
+    .img-2 {
+        width: 300px;
+        padding: 0 4px 0 0;
+    }
+    
+    .thumbnail-2 {
+        width: 23%;
+        padding: 0 50px 0 0;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+    
+    .secLeft {
+        height: 500px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 85%;
+        margin: auto;
+    }
+    
+    .sectionTag-1 {
+        font-size: 34px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 10px;
+    }
+    
+    .sectionSubTag-1 {
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .sectionTag-2 {
+        font-size: 34px;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 10px;
+    }
+    
+    .sectionSubTag-2 {
+        font-size: 14px;
+        font-family: cursive;
+    }
+    
+    .name {
+        font-size: 4.2rem;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        height: 0px;
+        color: rgb(0, 255, 115);
+    }
+    
+    .contact {
+        background: rgb(243, 242, 198);
+        border: 2px solid black;
+        height: 90vh;
+    }
+    
+    .heading {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 51px;
+        font-family: cursive;
+    }
+    
+    .form {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        padding: 32px;
+        width: 500px;
+        margin: auto;
+    }
+    
+    .Form-item {
+        padding: 15px;
+        margin: 8px;
+        max-width: 444px;
+        font-size: 30px;
+        color: aqua;
+        border: 2px solid gray;
+        font-family: unset;
+    }
+    
+    .Footer-content {
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        font-size: 20px;
+        font-family: unset;
+        color: white;
+    }
